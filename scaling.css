@@ -1,0 +1,101 @@
+@media screen and (max-width: 500px) {
+    
+  div[style*="padding: 10px"][style*="background: rgb(220,137,232)"][style*="background: linear-gradient(141deg, rgba(220,137,232,1) 0%, rgba(144,64,204,1) 100%)"][style*="height: 55px"][style*="text-align: center"] {
+    position: absolute;
+    top: -100000px;
+  }
+  
+  *{
+        font-size: 15px!important;
+    }
+    #name{
+        font-size: 30px!important;
+    }
+
+    #pfp-img{
+      width: 75px!important;
+      height: 75px!important;
+    }
+    #container{
+        width: 300px;
+    }
+
+    #music-player{
+        width: 270px;
+        height: 103px;
+    }
+    #cte{
+        font-size: 20px!important;
+      
+      }
+      
+
+
+      
+      #music-warning{
+        font-size: 10px!important;
+      }
+
+      #song-info{
+        font-size: 16px!important;
+        height: 24px;
+      }
+
+      .music-button{
+        font-size: 14px!important;
+        white-space: nowrap;
+        width: 159px;
+        height: 21px;
+        margin-top: 3px;
+      }
+  
+      .fa-brands{
+        font-size: 14px!important;
+      }
+
+      #pause-icon, #play-icon{
+        font-size: 14px!important;
+      }
+
+
+        .social-link{
+          width: 135px!important;
+        }
+
+
+      #listen-on{
+        display: none;
+      }
+
+
+      #vaporeons{
+        position: relative;
+      }
+      .vaporeon{
+        position: absolute;
+      }
+      .hr-main{
+        margin-top: 10px;
+        border: 2px solid #d392ff;
+        position: relative;
+      }
+      
+      #left-vaporeon{
+        position: absolute;
+        top: -102px;
+        left: 3px;
+        filter: hue-rotate(60deg);
+      
+        width: 100px;
+      }
+      
+      #right-vaporeon{
+        position: absolute;
+        top: -102px;
+        left: 190px;
+        filter: hue-rotate(60deg);
+      transform: scaleX(-1);
+        width: 100px;
+      }
+
+}
